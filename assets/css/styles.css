@@ -45,12 +45,16 @@ body{
   padding-top: 30px;;
   padding-bottom: 0px;
 }
+p {
+  color: #616266;
+}
 
 h1 {
   font-size: 2em;
   color: #f5f3f0;
   padding: auto;
   margin: auto;
+  color: #616266;
 }
  
 
@@ -142,15 +146,52 @@ main {
  }
 
  .texto{
-  font-size: 15px;
+  font-size: 16px;
   color: #616266;
   margin-top: 1em;
   padding: 0 1em;
  }
 
+ .container-planner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: auto;
+}
+
+ .imagem-planner {
+  width: 260px;
+ } 
+
+ .texto-planner{
+  font-size: 16px;
+  color: #616266;
+ }
+
+ .container-planner2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.imagem-planner2 {
+  width: 350px;
+  height: auto; 
+} 
+
+.texto-planner2{
+  font-size: 16px;
+  color: #616266;
+  margin: auto;
+  padding: auto;
+ }
+
+
  .container-livro {
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   flex-wrap: nowrap;
 
@@ -166,6 +207,7 @@ main {
   font-size: 16px;
   color: #616266;
  }
+
 
 footer {
   display: flex;
