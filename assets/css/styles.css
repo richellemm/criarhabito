@@ -1,34 +1,3 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-}
-
-header {
-    background-color: #879e85;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-}
-
-main {
-    margin: 0 auto;
-    max-width: 980px;
-    padding: 20px;
-    background-color:#f5f3f0;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    background-color: #879e85;
-    color: white;
-} */
-
-/* Reset e estilo global */
 * {
   margin: 0;
   padding: 0;
@@ -67,6 +36,10 @@ h1 {
   margin-bottom: 20px;
   /* padding: 0 1em; */
 } 
+
+h4{
+  text-align: center;
+}
 
 main {
   margin: 0 auto;
@@ -122,6 +95,14 @@ nav li:hover ul {
 nav li ul li {
   margin: 0;
 }
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #879e85;
+  color: white;
+  bottom: 0%;
+  }
 
 .container{
   width: 100%;
@@ -200,18 +181,18 @@ nav li ul li {
   padding: 0 2em;
  } 
 
+ .container-focus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 150px;
+  height: auto;
+  margin: 20px;
+  padding: 0 2em;
+ }
+
  .texto-livro{
   font-size: 16px;
   color: #616266;
  }
-
-.footer {
-  color: #f5f3f0;
-}
-
-footer {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  background-color: #879e85;
-}
