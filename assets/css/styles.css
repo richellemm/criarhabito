@@ -6,6 +6,8 @@
 
 body{
   background-color: #f5f3f0;;
+  justify-content: space-between;
+  margin: 0;
 }
 
 body.modo-escuro {
@@ -135,12 +137,16 @@ nav li ul li {
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #879e85;
-  color: white;
-  bottom: 0%;
-  }
+    margin-top: 20px;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #879e85;
+    color: white;
+    padding: 1.2em;
+    text-align: center;
+}
 
   footer.modo-escuro {
     text-align: center;
