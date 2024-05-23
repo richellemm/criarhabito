@@ -8,6 +8,34 @@ body{
   background-color: #f5f3f0;;
 }
 
+body.modo-escuro {
+  background-color: #212121;
+  color: #f5f3f0;
+}
+
+header.modo-escuro {
+  background-color: #212121;
+  color: #f5f3f0;
+  
+}
+
+header .imagem-botao {
+  width: 35px;
+  transition: 0.2s ease-in-out
+
+}
+
+header #botao-alterar-tema {
+  background: none;
+  border: none;
+  
+}
+
+header .imagem-botao:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
 header {
   background-color: #879e85;
   display: flex;
@@ -24,6 +52,16 @@ p {
 h1 {
   font-size: 2em;
   color: #000;
+  padding: auto;
+  margin: auto;
+  display: block;
+  font-size: 2em;
+  margin-top: 20px;
+}
+
+h1.modo-escuro {
+  font-size: 2em;
+  color: #f5f3f0;
   padding: auto;
   margin: auto;
   display: block;
@@ -103,6 +141,14 @@ footer {
   color: white;
   bottom: 0%;
   }
+
+  footer.modo-escuro {
+    text-align: center;
+    padding: 20px;
+    background-color: #212121;
+    color: #f5f3f0;
+    bottom: 0%;
+    }
 
 .container{
   width: 100%;
@@ -196,3 +242,7 @@ footer {
   font-size: 16px;
   color: #616266;
  }
+
+ .modo-escuro .main{
+  background-color: #212121;
+}
