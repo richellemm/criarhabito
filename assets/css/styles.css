@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  text-align: justify;
+  
 }
 
 body {
@@ -106,6 +106,9 @@ main {
   background-color: #f5f3f0;
 }
 
+h4{
+  text-align: center;
+}
 .container-imagem {
   display: flex;
   justify-content: space-around;
@@ -338,4 +341,58 @@ footer p {
   footer p {
     font-size: 0.6rem;
   }
+}
+
+body.modo-escuro {
+  background-color: #212121;
+  color: #f5f3f0;
+}
+
+header.modo-escuro {
+  background-color: #212121;
+  color: #f5f3f0;
+  
+}
+
+header .imagem-botao {
+  width: 35px;
+  transition: 0.2s ease-in-out
+
+}
+
+header #botao-alterar-tema {
+  background: none;
+  border: none;
+  
+}
+
+header .imagem-botao:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.modo-escuro .main{
+  background-color: #212121;
+}
+
+footer.modo-escuro{
+  background-color: #212121; 
+  
+}
+
+.modo-escuro .main-sobre {
+  flex: 1;
+  background-color: #212121;
+}
+
+.imagem-focus {
+  width: 150px;
+  height: auto;
+}
+
+.container-focus{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
