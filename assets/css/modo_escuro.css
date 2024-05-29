@@ -1,0 +1,50 @@
+.modo{
+    width: 60px;
+    height: 25px;
+    background-color: #c3c3c3;
+    border-radius: 150px;
+    position: relative;
+    cursor: pointer;
+    top: 35px;
+    left: 420px;
+  }
+  
+  .modo .indicador{
+    width: 25px;
+    height: 25px;
+    background-color: #f5f3f0;
+    border-radius: 50%;
+    transform: scale(.85);
+    position: absolute;
+    left: 0;
+    transition: .5s;
+  
+  }
+  .modo.dark{
+    background-color: #616266;
+  }
+  
+  .modo.dark .indicador{
+    left: 35px;
+    background-color: #000;
+  
+  }
+  
+  body.dark{
+    background-color: #000;
+  }
+  
+  main.dark{
+    background-color: #000;
+    color: #f5f3f0;
+  }
+  
+  header.dark{
+    background-color: #000;
+  
+  }
+  
+  footer.dark{
+    background-color: #000;
+  
+  }
