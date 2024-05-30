@@ -40,3 +40,6 @@ O nosso site tem o intuito de ajudar você que está buscando um caminho para co
 * ChatGPT
 
 </p>
+
+## GitHub Page
+richellemm.github.io/criarhabito/
