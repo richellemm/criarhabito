@@ -42,4 +42,4 @@ O nosso site tem o intuito de ajudar você que está buscando um caminho para co
 </p>
 
 ## GitHub Page
-[https://richellemm.github.io/criarhabito/] 
+https://richellemm.github.io/criarhabito/ 
